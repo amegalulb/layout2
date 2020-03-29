@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Дипломная работа</title>
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header bg-grey">
+        <div class="fixed-container header-container">
+            <div class="header__wrapper">
+                <button class="burger-menu">
+                    <span class="burger-menu__item"></span>
+                    <span class="burger-menu__item"></span>
+                    <span class="burger-menu__item"></span>
+                </button>
+                <nav class="nav header__nav">
+                    <ul class="nav__list header-nav__list">
+                        <li class="nav__list-item header-nav__list-item">
+                            <a href="#features" class="nav__link">Услуги</a>
+                        </li>
+                        <li class="nav__list-item header-nav__list-item">
+                            <a href="#works" class="nav__link">Портфолио</a>
+                        </li>
+                        <li class="nav__list-item header-nav__list-item">
+                            <a href="#price" class="nav__link">Стоимость</a> 
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-phone">
+                    <a href="#" class="header-phone__number">+7 (499) 995-55-77</a>
+                    <button href="#" class="btn btn_white header-btn">Заказать звонок</button>
+                </div>
+                <!-- <button class="mob-phone__btn"></button> -->
+            </div>
+        </div>
+    </header>
+<main>
+    <section class="home bg-grey">
+        <span class="home__flying-element home__first-parentheses">{ }</span>
+        <!-- <span class="home__flying-element home__second-parentheses">{ }</span> -->
+        <span class="home__flying-element home__sharp">#</span>
+        <span class="home__flying-element home__first-close-tag">&lt;/&gt;</span>
+        <!-- <span class="home__flying-element home__second-close-tag">&lt;/&gt;</span> -->
+        <span class="home__flying-element home__first-div"> &lt;div&gt; </span>
+        <span class="home__flying-element home__second-div">&lt;div&gt;</span>
+        <div class="fixed-container home-container">
+            <div class="home__wrapper">
+                <div class="home-text">
+                    <h1 class="home-text__name">Дмитрий Алексеев</h1>
+                    <p class="home-text__profession">Frontend-разработчик и веб-верстальщик</p>
+                    <button href="#" class="btn btn_orange">Узнать больше</button>
+                </div>
+                <picture class="home__photo">
+                    <source media="(max-width: 576px)" srcset="img/mob-human.png">
+                    <img src="img/human.png" alt="Human" class="home__img">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="fixed-container">
+            <div class="features__wrapper">
+                <h2 class="section__header">Что я делаю</h2>
+                <ul class="features__list">
+                    <li class="features__item">
+                        <picture class="features__picture">
+                            <source media="(max-width: 576px)" srcset="img/mob-tools-and-utensils.png">
+                            <img src="img/tools-and-utensils.png" alt="Инструменты">
+                        </picture>
+                        <p class="features__text">Вёрстка лендинг-страниц и сайтов любой сложности</p>
+                    </li>
+                    <li class="features__item">
+                        <picture class="features__picture">
+                            <source media="(max-width: 576px)" srcset="img/mob-responsive.png">
+                            <img src="img/responsive.png" alt="Адаптивность">
+                        </picture>
+                        <span class="features__text">Адаптивная вёрстка под все браузеры и устройства</span>
+                    </li>
+                    <li class="features__item">
+                        <picture class="features__picture">
+                            <source media="(max-width: 576px)" srcset="img/mob-programming.png">
+                            <img src="img/programming.png" alt="Программирование">
+                        </picture>
+                        <span class="features__text">Fronted-разработка и программирование</span>
+                    </li>
+                    <li class="features__item">
+                        <picture class="features__picture">
+                            <source media="(max-width: 576px)" srcset="img/mob-coding.png">
+                            <img src="img/coding.png" alt="Кодинг">
+                        </picture>
+                        <span class="features__text">Исправление и доработка существующей вёрстки</span>
+                    </li>
+                </ul>
+                <button href="#" class="btn btn_orange">Узнать стоимость</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="works bg-grey" id="works">
+        <div class="fixed-container">
+            <div class="works__wrapper">
+                <h2 class="section__header">Примеры моих работ</h2>
+                <button class="slider__btn btn_left"></button>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture class="works__picture">
+                                <source media="(max-width: 1024px) and (min-width: 992px)" srcset="img/tab-works-1.jpg">
+                                <source media="(max-width: 576px)" srcset="img/mob-works-1.jpg">
+                                <img src="img/works-1.jpg" alt="">
+                            </picture>
+                            <p class="works__text">Сайт психолога Веры Антоновой</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture class="works__picture">
+                                <source media="(max-width: 1024px) and (min-width: 992px)" srcset="img/tab-works-2.jpg">
+                                <source media="(max-width: 576px)" srcset="img/mob-works-2.jpg">
+                                <img src="img/works-2.jpg" alt="">
+                            </picture>
+                            <p class="works__text">Сайт магазина детской одежды</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture class="works__picture">
+                                <source media="(max-width: 1024px) and (min-width: 992px)" srcset="img/tab-works-3.jpg">
+                                <source media="(max-width: 576px)" srcset="img/mob-works-3.jpg">
+                                <img src="img/works-3.jpg" alt="">
+                            </picture>
+                            <p class="works__text">Сайт магазина &#171;Рыболов&#187;</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <button class="slider__btn btn_right"></button>
+                <button href="#" class="btn btn_orange">Заказать проект</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="price" id="price">
+        <span class="price__flying-element price__first-parentheses">{ }</span>
+        <span class="price__flying-element price__second-parentheses">{ }</span>
+        <span class="price__flying-element price__sharp">#</span>
+        <span class="price__flying-element price__first-close-tag">&lt;/&gt;</span>
+        <span class="price__flying-element price__second-close-tag">&lt;/&gt;</span>
+        <span class="price__flying-element price__first-div"> &lt;div&gt; </span>
+        <span class="price__flying-element price__second-div">&lt;div&gt;</span>
+        <div class="price__wrapper">
+            <h2 class="price__title">Адаптивная вёрстка под все устройства
+                    и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</h2>
+            <p class="price__text">* Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются индивидуально, <br>
+                    в&nbsp;зависимости от&nbsp;сложности задач.</p>
+        </div>
+    </section>
+</main>
+    <footer class="footer">
+        <div class="fixed-container">
+            <div class="footer__wrapper">
+                <nav class="nav footer-nav">
+                    <ul class="nav__list footer-nav__list">
+                        <li class="nav__list-item footer-nav__list-item">
+                            <a href="#features" class="nav__link footer-nav__link">Услуги</a>
+                        </li>
+                        <li class="nav__list-item footer-nav__list-item">
+                            <a href="#works" class="nav__link footer-nav__link">Портфолио</a>
+                        </li>
+                        <li class="nav__list-item footer-nav__list-item">
+                            <a href="#price" class="nav__link footer-nav__link">Стоимость</a> 
+                        </li>
+                    </ul>
+                </nav>
+            
+                <div class="footer-central">
+                    <ul class="footer-central__list">
+                        <li class="footer-central__list-item">
+                            
+                            <a href="#" class="footer-central__link central__link_first">
+                                <i class="fas fa-phone-alt"></i>+7 (499) 995-77-55</a>
+                        </li>
+                        <li class="footer-central__list-item"> 
+                            
+                            <a href="#" class="footer-central__link">
+                                <i class="fas fa-envelope"></i>
+                                dmitry@alekseev.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <button href="#" class="btn btn_white footer__btn">Заказать звонок</button>
+                    <ul class="footer-right__social">
+                        <li class="footer-right__list-item vk">
+                            <a href="https://vk.com" class="footer-right__link" target="_blank"></a>
+                        </li>
+                        <li class="footer-right__list-item fb">
+                            <a href="https://facebook.com" class="footer-right__link" target="_blank"></a>
+                        </li>
+                        <li class="footer-right__list-item tw">
+                            <a href="https://twitter.com" class="footer-right__link" target="_blank"></a>
+                        </li> 
+                        <li class="footer-right__list-item inst">
+                            <a href="https://instagram.com" class="footer-right__link" target="_blank"></a>
+                        </li>   
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <span>© Дмитрий Алексеев, 2016 – 2018 </span>
+        </div>
+    </footer>
+
+    <div class="modal-window">
+        
+            <div class="modal-window__wrapper">
+                <h3 class="modal-window__header">Закажите обратную связь</h3>
+                <button class="modal-window__close">
+                    <span class="modal-window__close-item"></span>
+                    <span class="modal-window__close-item"></span>
+                </button>
+                <form action="">
+                    <input type="hidden" name="project_name" value="Дипломный проект">
+                    <input type="hidden" name="admin_email" value="mak.ageew2016@yandex.ru">
+                    <input type="hidden" name="form_subject" value="Тема">
+                    <label class="modal-window__label">Имя:</label>
+                    <input type="text" class="modal-window__input" placeholder="Имя" name="Имя">
+                    <label class="modal-window__label">Номер телефона:</label>
+                    <input type="tel" class="modal-window__input" placeholder="+7 (___) ___-__-__" name="Телефон">
+                    <label class="modal-window__label">E-mail:</label>
+                    <input type="email" class="modal-window__input" placeholder="mail@pochta.ru" name="Почта">
+                    <input type="submit" class="btn btn_orange modal-window__btn">
+                </form>
+            </div>
+        
+    </div>
+    <script src="https://kit.fontawesome.com/4d37469791.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.inputmask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
